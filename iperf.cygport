@@ -1,0 +1,11 @@
+NAME="iperf"
+VERSION=2.0.4
+RELEASE=2
+
+CATEGORY="Net"
+SUMMARY="Internet Protocol bandwidth measuring tool"
+DESCRIPTION="Internet Protocol bandwidth measuring tool
+Iperf measures maximum TCP and UDP bandwidth performance, reporting bandwidth, delay jitter, and datagram loss. It allows the tuning of various parameters and UDP characteristics."
+HOMEPAGE="http://sourceforge.net/projects/iperf"
+
+SRC_URI="mirror://sourceforge/iperf/${P}.tar.gz"
