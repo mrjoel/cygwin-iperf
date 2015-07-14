@@ -1,0 +1,12 @@
+DESCRIPTION="Internet Protocol bandwidth measuring tool"
+HOMEPAGE="http://sourceforge.net/projects/iperf"
+SRC_URI="mirror://sourceforge/iperf/${P}.tar.gz"
+
+# We use the standard src_compile and src_test.
+
+src_compile() {
+	cd ${B}
+	cygconf
+	cygmake
+}
+
