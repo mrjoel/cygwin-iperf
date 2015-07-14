@@ -1,6 +1,6 @@
 NAME="iperf"
-VERSION=2.0.4
-RELEASE=2
+VERSION=2.0.5
+RELEASE=1
 
 CATEGORY="Net"
 SUMMARY="Internet Protocol bandwidth measuring tool"
